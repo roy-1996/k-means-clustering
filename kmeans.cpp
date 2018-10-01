@@ -225,7 +225,7 @@ int main( int argc , char *argv[] )
 	for( i = 1 ; i <= K ; i++ )
 	{
 		//means.push_back(data[rand()%data.size()]);
-		means.push_back(data[i+100]);
+		means.push_back(data[i*100]);
 	}
 
 	begin_time = omp_get_wtime();
