@@ -1,0 +1,15 @@
+For parallel version
+
+Compile : g++ -std=c++11 -fopenmp kmeans-parallel.cpp -o kmeans-parallel
+Run:	  ./kmeans-parallel iris.csv
+
+
+For serial version
+
+
+Compile : g++ -std=c++11 -fopenmp kmeans.cpp -o kmeans
+Run:	  ./kmeans iris.csv
+
+
+	
+
