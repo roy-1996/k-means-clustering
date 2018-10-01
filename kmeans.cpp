@@ -211,7 +211,8 @@ vector<vector<double> > parseCSV2double ( char *filename )
 
 int main( int argc , char *argv[] )
 {
-	int i,K,size,begin_time,end_time,diff;
+	int i,K,size;
+	double begin_time,end_time,diff;
 	data = parseCSV2double(argv[1]);
 
 	cout<<"Enter the number of clusters:\t";
