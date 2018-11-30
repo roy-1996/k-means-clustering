@@ -137,7 +137,7 @@ void K_Means_Parallel()
 
 			
 			Variables j,minimum,distance,index have been made private for each thread that have been launched.
-			Keeping them shared for each thread, will lead to data race conditions, and subsequently long results
+			Keeping them shared for each thread, will lead to data race conditions, and subsequently wrong results
 
 		*/
 
