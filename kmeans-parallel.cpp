@@ -121,7 +121,7 @@ void K_Means_Parallel()
 
 		cout<<iter<<endl;
 
-		#pragma omp parallel for private(j,minimum,distance,index) schedule( static , chunk_size )
+		#pragma omp parallel for private(j,minimum,distance,index) schedule( dynamic , chunk_size )
 
 
 		/* Intuition behind parallelization:
